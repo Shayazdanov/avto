@@ -1,4 +1,4 @@
-import {invertCase} from './invertCase.js';
+//import {invertCase} from './invertCase.js';
 import fizzBuzz from './fizzBuzz.js';
 
 invertCase('I loVsssse JS'); // меняем регистр у букв
