@@ -1,49 +1,6 @@
 import {invertCase} from './invertCase.js';
+import fizzBuzz from './fizzBuzz.js';
 
-/*const getNumb = (num1, num2) =>{
-  let i = 0;
-   while (num1 <= num2){
-        i = i + num1;
-        num1 +=1;
-    }
-    return i;
+//invertCase('I loVsssse JS'); // меняем регистр у букв
 
-};
-
-console.log(getNumb(3, 5)); 
-
-const calcText = (text) =>{
-switch (text){
-    case 'Привет':
-        console.log('Привет!');
-        break;
-    case 'Пока':
-        console.log('Ну пока!');
-        break;
-    default:
-        console.log('Чегооо?');
-
-};
-};
-
-console.log(calcText('Чева'));
-
-const invertCase = (text) => {
-    let i = 0;
-    let result = '';
-    while (i < text.length){
-        if (text[i] === text[i].toUpperCase()){
-            result = `${result}${text[i].toLowerCase()}`;
-        }else{
-            result = `${result}${text[i].toUpperCase()}`;
-        }
-        i++;
-    };
-    return result;
-};
-
-
-
-*/
-
-invertCase('I loVsssse JS');
+fizzBuzz(11, 20); // выводит в терминал числа в диапазоне от begin до end (остальные условия смотрите в файле fizzBuzz.js)
